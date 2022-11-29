@@ -3,11 +3,16 @@ package ljv134;
 public class Animal implements Wofable
 {
     private static final String DOG_GREETING = "ГАВ ГАВ!";
+    public static int numberAnimals;
 
     public String breed;
     public String gender;
-    public static int numberAnimals;
-    int numberOfAnimals = Animal.numberAnimals++;
+
+
+    public Animal()
+    {
+        Animal.numberAnimals++;
+    }
 
     @Override
     public void wof()

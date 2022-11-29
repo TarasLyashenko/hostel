@@ -18,6 +18,7 @@ public class Main
         dog2.breed = "Дворняжка";
         dog.gender = "Мальчик";
         dog2.wof();
+
         System.out.println(Animal.numberAnimals);
     }
 }
