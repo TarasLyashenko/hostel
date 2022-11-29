@@ -7,6 +7,7 @@ public class Animal implements Wofable
     public String breed;
     public String gender;
     public static int numberAnimals;
+    int numberOfAnimals = Animal.numberAnimals++;
 
     @Override
     public void wof()

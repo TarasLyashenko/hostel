@@ -6,9 +6,18 @@ public class Main
     {
         Animal dog = new Animal();
         dog.breed = "Хаски";
-        dog.gender = "Мальчики";
-        Animal.numberAnimals = 3;
+        dog.gender = "Мальчик";
         dog.wof();
-        System.out.println(dog.breed + " " + dog.gender + " " + Animal.numberAnimals + " штуки");
+
+        Animal dog1 = new Animal();
+        dog.breed = "Питбуль";
+        dog.gender = "Девочка";
+        dog1.wof();
+
+        Animal dog2 = new Animal();
+        dog2.breed = "Дворняжка";
+        dog.gender = "Мальчик";
+        dog2.wof();
+        System.out.println(Animal.numberAnimals);
     }
 }
